@@ -1,0 +1,17 @@
+{
+  "title": "SLA Dashboard",
+  "panels": [
+    {
+      "name": "api_request_latency_seconds",
+      "type": "timeseries"
+    },
+    {
+      "name": "api_requests_total",
+      "type": "timeseries"
+    },
+    {
+      "name": "model_inference_errors_total",
+      "type": "timeseries"
+    }
+  ]
+}

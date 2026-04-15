@@ -1,0 +1,5 @@
+Explain why the workflow selected this action using only:
+- image quality result
+- disease classification
+- patient background
+- policy rule outcome

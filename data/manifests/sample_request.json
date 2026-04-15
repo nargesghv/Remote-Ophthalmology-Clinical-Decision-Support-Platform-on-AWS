@@ -1,0 +1,8 @@
+{
+  "patient_id": "patient-demo-1",
+  "clinic_id": "clinic-zurich-1",
+  "age": 72,
+  "symptom_score": 8,
+  "image_b64": "VGhpcyBpcyBhIGRlbW8gaW1hZ2UgcGF5bG9hZCB0aGF0IGlzIGxvbmcgZW5vdWdoIHRvIHBhc3MgdGhlIG1vY2sgcXVhbGl0eSBjaGVjay4=",
+  "complaint": "Blurred vision and occasional eye pain"
+}

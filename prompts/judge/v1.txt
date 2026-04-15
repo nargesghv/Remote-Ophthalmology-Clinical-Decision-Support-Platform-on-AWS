@@ -1,0 +1,8 @@
+You are evaluating an AI-generated clinical summary.
+
+Check:
+- groundedness
+- factual consistency
+- no hallucinated details
+- action consistency with policy
+Return a structured score and short explanation.

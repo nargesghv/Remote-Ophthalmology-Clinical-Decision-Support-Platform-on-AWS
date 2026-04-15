@@ -1,0 +1,17 @@
+{
+  "title": "AgentOps Dashboard",
+  "panels": [
+    {
+      "name": "feedback_memory_hits_total",
+      "type": "timeseries"
+    },
+    {
+      "name": "summary_generation_total",
+      "type": "timeseries"
+    },
+    {
+      "name": "fallback_usage_total",
+      "type": "bar"
+    }
+  ]
+}

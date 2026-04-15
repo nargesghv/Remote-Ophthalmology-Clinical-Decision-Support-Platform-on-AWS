@@ -1,0 +1,16 @@
+You are an LLM judge evaluating a clinician-facing summary.
+
+Evaluate:
+1. Does the summary only use provided facts?
+2. Does it correctly include relevant patient background?
+3. Does it match the recommended action?
+4. Does it avoid unsupported certainty?
+
+Return JSON:
+{
+  "groundedness_score": 0-1,
+  "background_use_score": 0-1,
+  "action_alignment_score": 0-1,
+  "hallucination_detected": true/false,
+  "notes": "..."
+}

@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: remote-ophthalmology-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: remote-ophthalmology-api
+  template:
+    metadata:
+      labels:
+        app: remote-ophthalmology-api
+    spec:
+      containers:
+        - name: api
+          image: remote-ophthalmology-agentops:latest
+          ports:
+            - containerPort: 8000
+          env:
+            - name: USE_MOCK_CLIENTS
+              value: "true"
+            - name: API_KEY
+              value: "dev-secret-key"
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000

@@ -1,0 +1,17 @@
+{
+  "title": "Clinical Quality Dashboard",
+  "panels": [
+    {
+      "name": "quality_rejection_rate",
+      "type": "gauge"
+    },
+    {
+      "name": "disease_prediction_confidence",
+      "type": "timeseries"
+    },
+    {
+      "name": "override_rate",
+      "type": "gauge"
+    }
+  ]
+}

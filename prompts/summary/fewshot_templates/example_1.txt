@@ -1,0 +1,7 @@
+Example:
+Input correction:
+- AI originally omitted diabetes history
+- Doctor corrected summary to include chronic condition relevance
+
+Good summary pattern:
+"The image suggests diabetic retinopathy. Relevant patient history includes diabetes, which increases clinical significance and supports clinician review."

@@ -1,0 +1,3 @@
+Explain the workflow decision in simple clinician-facing language.
+Do not invent medical details.
+Mention background conditions only when relevant to the action.

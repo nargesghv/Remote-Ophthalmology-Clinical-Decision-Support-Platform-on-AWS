@@ -1,0 +1,17 @@
+{
+  "title": "Workflow Health Dashboard",
+  "panels": [
+    {
+      "name": "workflow_action_total",
+      "type": "bar"
+    },
+    {
+      "name": "workflow_latency_seconds",
+      "type": "timeseries"
+    },
+    {
+      "name": "clinician_review_queue_size",
+      "type": "gauge"
+    }
+  ]
+}
