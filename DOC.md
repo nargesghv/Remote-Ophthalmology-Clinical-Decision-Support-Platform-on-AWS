@@ -244,12 +244,12 @@ Key modules:
 - `feedback_loop/champion_challenger.py`
 - `feedback_loop/rollback_promotion.py`
 
-## 9. Suggested GitHub presentation
+## 9. Topics
 
 Top repo description:
 > Production-grade multi-agent clinical decision-support platform on AWS with memory-aware AgentOps, evaluation, monitoring, and feedback-driven improvement.
 
-Suggested topics:
+Topics:
 - agentops
 - mlops
 - aws
